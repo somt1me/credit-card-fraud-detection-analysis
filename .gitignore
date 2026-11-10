@@ -1,0 +1,22 @@
+# Bỏ qua các file cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bỏ qua môi trường ảo (Virtual Environment) nếu bạn có dùng
+venv/
+.venv/
+env/
+
+# Bỏ qua các file checkpoint của Jupyter Notebook
+.ipynb_checkpoints/
+
+# Bỏ qua dữ liệu lớn hoặc dữ liệu bảo mật trong thư mục data (Rất quan trọng!)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+
+# Bỏ qua cấu trúc cấu hình riêng của VS Code (nếu muốn)
+.vscode/
